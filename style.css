@@ -31,7 +31,7 @@ body{
     background: #00008B; 
 }
 .logo .nav a:focus{
-    background: #00008B; 
+    background: #fb4c08; 
 }
 .title h1{
     font-family:cursive;
@@ -77,8 +77,7 @@ body{
     border-radius: 1em;
 }
 .event_title{
-    font-family:cursive;
-    color: #e700a1;
+    color: white;
     font-size: 2.5em;
 }
 .event_div{
@@ -104,7 +103,7 @@ body{
     border-radius: 30px;
     font-size: 1em;
     padding: .5em;  
-    background: #00008B; 
+    background: #fb4c08; 
 }
 .event_div p{
     font-weight: bold;
@@ -147,7 +146,7 @@ body{
     padding-bottom: .5em;
     padding-left: 1em;
     padding-right: 1em;
-    background: #00008B; 
+    background: #fb4c08; 
  }
  .back_btn_div{
     text-align: center;
@@ -242,6 +241,19 @@ transform: scale(1,1) translate(0px, 0px);
   width:20em;
  -webkit-animation: bounce 0.95s infinite;
 }
+ul li p{
+    font-weight: bold;
+}
+.location_btn{
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    border-radius: 30px;
+    font-size: 1em;
+    padding: .5em;  
+    background-color:#fb4c08; 
+}
+
 
 
 
