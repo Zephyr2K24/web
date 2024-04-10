@@ -172,11 +172,11 @@ body{
     background: #55ACEE;
     color: white;
   }
-  .s-media{
+  #s-media{
     text-align: center;
-    margin-top: 1em;
+    margin-top: 2em;
   }
-  .s-media a{
+  #s-media a{
     border-radius: 1em;
   }
   .s-icon{
@@ -213,6 +213,34 @@ body{
     -webkit-filter: saturate(0.2) opacity(0.5);
     cursor: not-allowed;
   }
+  #s-media-icon img{
+    width: 4em;
+    height: 4em;
+  }
+  @-webkit-keyframes bounce {
+    0% {
+transform: scale(1,1) translate(0px, 0px);
+}
+
+30%{
+transform: scale(1,0.8) translate(0px, 10px); 
+}
+
+75%{
+transform: scale(1,1.1) translate(0px, -25px); 
+}
+
+100% {
+transform: scale(1,1) translate(0px, 0px);
+}
+}
+
+.bounce {
+  margin:0 auto;
+  height:10px;
+  width:20em;
+ -webkit-animation: bounce 0.75s infinite;
+}
 
 
 
