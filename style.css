@@ -253,7 +253,9 @@ ul li p{
     padding: .5em;  
     background-color:#fb4c08; 
 }
-
+ul li{
+    font-weight: bold;
+}
 
 
 
