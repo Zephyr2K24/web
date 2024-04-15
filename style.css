@@ -137,6 +137,9 @@ nav {
 .red-text {
   font-size: x-large;
   color: rgb(251, 162, 10);
+.red {
+  font-size: 150%;
+}
 }
 .hero-content p {
   font-size: 1.5rem;
